@@ -17,7 +17,7 @@ const About = () => {
                 HTML, CSS.
                 <br />
                 <br />
-                I have a BsC HONS degree in Bioinforamtics/Computer Science from Vilnius University.
+                I have a BsC HONS degree in Bioinforamtics from Vilnius University.
                 My early experience involved team building, management and communications.
                 These are skills I apply on a daily basis.
                 <br />
