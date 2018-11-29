@@ -11,7 +11,7 @@ const Header = () => {
         <div className='section-header'>
 
             <div className='navi'>
-                <Link to='/'> <h3>Home</h3> </Link>
+                <Link to='/'><h3>Home</h3></Link>
                 <Link to='/about'><h3>About Me</h3></Link>
                 <Link to='/myProjects'><h3>My Projects</h3></Link>
                 <Link to='/contactMe'><h3>Contact Me</h3></Link>
@@ -21,7 +21,7 @@ const Header = () => {
                 <Route path='/' />
                 <Route path='/about' />
                 <Route path='/myProjects' />
-                <Route path='/contactMe' component={ContactMe} />
+                <Route path='/contactMe' />
 
             </div>
 

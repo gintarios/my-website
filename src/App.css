@@ -34,9 +34,6 @@ h3 {
   color: #fff; 
 }
 
-Route {
-  text-decoration: none;
-}
 
 .section-header h2 {
   color: rgb(211,211,211);
@@ -89,8 +86,6 @@ Route {
   padding-left: 50%;
 }
 
-
-
 .projects-box {
   padding: 1%;
   display: flex;
@@ -104,15 +99,13 @@ Route {
 }
 
 .project1 {
-  background-color: #555;
+  background-color: rgba(0, 0, 0, 0.836)
 }
-
 .project2 {
-  background-color: #555;
+  background-color: rgba(0, 0, 0, 0.836)
 }
-
 .project3 {
-  background-color: #555;
+  background-color: rgba(0, 0, 0, 0.836)
 }
 
 .contact-form {
@@ -133,7 +126,26 @@ textarea {
 }
 
 
-@media only screen and (max-width: 620px) {
+.footer-container {
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footer-box1 {
+  flex: 1;
+  display: block;
+}
+
+.footer-box2 {
+  flex: 1;
+  padding: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
   h1 {
     font-size: 50px;
     padding-top: 30%;
@@ -144,7 +156,6 @@ textarea {
     font-weight: 400;
   }
   
-
 h3 {
   display: block;
   font-size: 20px;
@@ -162,4 +173,13 @@ h2 {
 .project {
   padding: 20%;
 }
+}
+
+@media only screen and (max-width: 910px) {
+  h3 {
+    display: block;
+    padding: 3px;
+    font-size: 18px;
+  }
+
 }
