@@ -1,32 +1,92 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #555;
+  /*Add font family*/
+  font-size: 15px;
+  font-weight: 300;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+h1 {
+  color: rgb(211,211,211);
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 300%;
+  padding-top: 12%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.section-header h2 {
+  color: rgb(211,211,211);
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.section-header {
+  background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(img/balijungle1.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-about {
+  height: 100vh;
+}
+
+.section-myprojects {
+  color: #fff;
+  height: 100vh;
+  background-color: rgb(82, 184, 99);
+}
+
+.section-contactme {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.section-footer {
+  height: 25vh;
+  color:#fff;
+  background-color: #555;
+}
+
+.navi {
+  padding-top: 20px;
+  padding-left: 50%;
+}
+
+h3 {
+  display: inline;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #fff; 
+}
+
+
+@media only screen and (max-width: 620px) {
+  h1 {
+    font-size: 50px;
+    padding-top: 30%;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 15px;
+    font-weight: 400;
   }
+
+  
+
 }
