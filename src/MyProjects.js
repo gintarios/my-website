@@ -7,9 +7,9 @@ const MyProjects = () => {
             <h2>My Projects</h2>
 
             <div className='projects-box'>
-                <div className='project'>Project1</div>
-                <div className='project'>Project2</div>
-                <div className='project'>Project3</div>
+                <div className='project project1'>Coming Soon</div>
+                <div className='project project2'>Coming Soon</div>
+                <div className='project project3'>Coming Soon</div>
             </div>
         </div>
     )

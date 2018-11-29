@@ -27,6 +27,17 @@ h2 {
   font-size: 24px;
 }
 
+h3 {
+  display: inline;
+  padding: 10px;
+  font-weight: 100;
+  color: #fff; 
+}
+
+Route {
+  text-decoration: none;
+}
+
 .section-header h2 {
   color: rgb(211,211,211);
   font-size: 24px;
@@ -42,22 +53,33 @@ h2 {
 }
 
 .section-about {
-  height: 100vh;
+  padding-top: 20px;
+  
+}
+
+.section-about p {
+  padding: 30px;
+  font-size: 22px;
+  font-weight:400;
+  padding-top: 40px;
+  padding-left: 15%;
+  padding-bottom: 5%;
+
+  width: 70%;
+  text-align: justify;
 }
 
 .section-myprojects {
   color: #fff;
-  height: 100vh;
   background-color: rgb(82, 184, 99);
 }
 
 .section-contactme {
-  height: 100vh;
   background-color: #fff;
 }
 
 .section-footer {
-  height: 25vh;
+  height: 20vh;
   color:#fff;
   background-color: #555;
 }
@@ -67,11 +89,47 @@ h2 {
   padding-left: 50%;
 }
 
-h3 {
-  display: inline;
+
+
+.projects-box {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  margin: 50px;
+  font-size: 25px;
+  padding: 5%;
+}
+
+.project1 {
+  background-color: #555;
+}
+
+.project2 {
+  background-color: #555;
+}
+
+.project3 {
+  background-color: #555;
+}
+
+.contact-form {
+  padding: 60px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
   padding: 10px;
-  font-weight: 100;
-  color: #fff; 
+}
+
+textarea {
+  height: 100px;
 }
 
 
@@ -85,4 +143,23 @@ h3 {
     font-size: 15px;
     font-weight: 400;
   }
+  
+
+h3 {
+  display: block;
+  font-size: 20px;
+  padding: 2px;
+  font-weight: 400;
+}
+h2 {
+  font-size:20px;
+  font-weight: 500;
+}
+
+.projects-box {
+  display: block;
+}
+.project {
+  padding: 20%;
+}
 }

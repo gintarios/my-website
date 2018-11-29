@@ -4,7 +4,7 @@ import './App.css';
 const Footer = () => {
     return (
         <div className='section-footer'>
-            <h2>Footer</h2>
+            <p>Made by Gintare Zolubaite 2018</p>
         </div>
     )
 }
