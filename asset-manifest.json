@@ -1,14 +1,14 @@
 {
-  "main.css": "/my-website/static/css/main.24bf42a0.chunk.css",
-  "main.js": "/my-website/static/js/main.d3e8471c.chunk.js",
-  "main.js.map": "/my-website/static/js/main.d3e8471c.chunk.js.map",
-  "static/js/1.2dd891c4.chunk.js": "/my-website/static/js/1.2dd891c4.chunk.js",
-  "static/js/1.2dd891c4.chunk.js.map": "/my-website/static/js/1.2dd891c4.chunk.js.map",
+  "main.css": "/my-website/static/css/main.a5baa715.chunk.css",
+  "main.js": "/my-website/static/js/main.e063c6e3.chunk.js",
+  "main.js.map": "/my-website/static/js/main.e063c6e3.chunk.js.map",
+  "static/js/1.f3412280.chunk.js": "/my-website/static/js/1.f3412280.chunk.js",
+  "static/js/1.f3412280.chunk.js.map": "/my-website/static/js/1.f3412280.chunk.js.map",
   "runtime~main.js": "/my-website/static/js/runtime~main.9eb36da8.js",
   "runtime~main.js.map": "/my-website/static/js/runtime~main.9eb36da8.js.map",
-  "static/media/logo.svg": "/my-website/static/media/logo.5d5d9eef.svg",
-  "static/css/main.24bf42a0.chunk.css.map": "/my-website/static/css/main.24bf42a0.chunk.css.map",
+  "static/media/App.css": "/my-website/static/media/balijungle1.68a2a9af.jpg",
+  "static/css/main.a5baa715.chunk.css.map": "/my-website/static/css/main.a5baa715.chunk.css.map",
   "index.html": "/my-website/index.html",
-  "precache-manifest.4e4fb0801f5f8bd8d2b9658cf07d0a48.js": "/my-website/precache-manifest.4e4fb0801f5f8bd8d2b9658cf07d0a48.js",
+  "precache-manifest.e79b4047fbfe1e1308f242471c7aa2ca.js": "/my-website/precache-manifest.e79b4047fbfe1e1308f242471c7aa2ca.js",
   "service-worker.js": "/my-website/service-worker.js"
 }
