@@ -7,7 +7,7 @@ body {
   background-color: #fff;
   color: #555;
   /*Add font family*/
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   text-align: center;
 }
@@ -17,19 +17,19 @@ h1 {
   word-spacing: 3px;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 300%;
+  font-size: 400%;
   padding-top: 12%;
 }
 
 h2 {
   padding-top: 10px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .section-header h2 {
   color: rgb(211,211,211);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 
@@ -70,7 +70,6 @@ h2 {
 h3 {
   display: inline;
   padding: 10px;
-  font-size: 15px;
   font-weight: 100;
   color: #fff; 
 }
@@ -86,7 +85,4 @@ h3 {
     font-size: 15px;
     font-weight: 400;
   }
-
-  
-
 }
