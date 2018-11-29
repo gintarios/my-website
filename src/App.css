@@ -84,7 +84,7 @@ h3:hover {
 
 .section-footer {
   height: 20vh;
-  color:#fff;
+  color: #fff;
   background-color: #555;
 }
 
@@ -149,7 +149,14 @@ textarea {
   padding: 15px;
 }
 
+.section-footer p {
+  color: #fff;
+}
 
+.section-footer p:hover { 
+  color: rgb(133, 177, 133);
+  transition: 0.2s;
+}
 
 
 @media only screen and (max-width: 650px) {

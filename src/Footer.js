@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
     return (
@@ -7,12 +9,12 @@ const Footer = () => {
 
             <div className='footer-container'>
                 <div className='footer-box1'>
-                    <div> Github</div>
-                    <div> LinkedIn</div>
-                    <div> Email</div>
+                    <Link to='/' > <p> Github </p></Link>
+                    <Link to='/' > <p> LinkedIn </p></Link>
+                    <Link to='/' > <p> Email </p></Link>
                 </div>
                 <div className='footer-box2'>
-                    <div> Made by Gintare Zolubaite</div>
+                    <Link to='/' > <p> Made by Gintare Zolubaite 2018 </p></Link>
                 </div>
             </div>
 
