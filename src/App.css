@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  color: rgb(211,211,211);
+  color: rgb(211, 211, 211);
   word-spacing: 3px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -32,7 +32,7 @@ h3 {
   display: inline;
   padding: 10px;
   font-weight: 100;
-  color: #fff; 
+  color: #fff;
   font-weight: 400;
 }
 
@@ -41,30 +41,38 @@ h3:hover {
   transition: 0.2s;
 }
 
-
 .section-header h2 {
-  color: rgb(211,211,211);
+  color: rgb(211, 211, 211);
   font-size: 24px;
 }
 
-
 .section-header {
-  background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(img/balijungle1.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+    url(img/balijungle1.jpg);
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
 
+.navi {
+  height: 8%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(5, 5, 5, 0.274);
+  padding-top: 1%;
+  padding-left: 30%;
+}
+
 .section-about {
   padding-top: 20px;
-  
+  height: 100vh;
 }
 
 .section-about p {
   padding: 30px;
   font-size: 22px;
-  font-weight:400;
+  font-weight: 400;
   padding-top: 40px;
   padding-left: 15%;
   padding-bottom: 5%;
@@ -74,23 +82,13 @@ h3:hover {
 }
 
 .section-myprojects {
-  color: #fff;
-  background-color: rgb(82, 184, 99);
-}
-
-.section-contactme {
-  background-color: #fff;
+  height: 100vh;
 }
 
 .section-footer {
   height: 20vh;
   color: #fff;
   background-color: #555;
-}
-
-.navi {
-  padding-top: 20px;
-  padding-left: 50%;
 }
 
 .projects-box {
@@ -106,32 +104,14 @@ h3:hover {
 }
 
 .project1 {
-  background-color: rgba(0, 0, 0, 0.836)
+  background-color: rgba(0, 0, 0, 0.836);
 }
 .project2 {
-  background-color: rgba(0, 0, 0, 0.836)
+  background-color: rgba(0, 0, 0, 0.836);
 }
 .project3 {
-  background-color: rgba(0, 0, 0, 0.836)
+  background-color: rgba(0, 0, 0, 0.836);
 }
-
-.contact-form {
-  padding: 60px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  width: 100%;
-  padding: 10px;
-}
-
-textarea {
-  height: 100px;
-}
-
 
 .footer-container {
   display: flex;
@@ -153,11 +133,16 @@ textarea {
   color: #fff;
 }
 
-.section-footer p:hover { 
+.section-footer p:hover {
   color: rgb(133, 177, 133);
   transition: 0.2s;
 }
 
+.section-skills {
+  height: 100vh;
+  background-color: rgb(82, 184, 99);
+  color: #fff;
+}
 
 @media only screen and (max-width: 650px) {
   h1 {
@@ -169,24 +154,24 @@ textarea {
     font-size: 15px;
     font-weight: 400;
   }
-  
-h3 {
-  display: block;
-  font-size: 20px;
-  padding: 2px;
-  font-weight: 400;
-}
-h2 {
-  font-size:20px;
-  font-weight: 500;
-}
 
-.projects-box {
-  display: block;
-}
-.project {
-  padding: 20%;
-}
+  h3 {
+    display: block;
+    font-size: 20px;
+    padding: 2px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .projects-box {
+    display: block;
+  }
+  .project {
+    padding: 20%;
+  }
 }
 
 @media only screen and (max-width: 930px) {
@@ -195,5 +180,4 @@ h2 {
     padding: 3px;
     font-size: 18px;
   }
-
 }
