@@ -1,14 +1,15 @@
 {
-  "main.css": "/my-website/static/css/main.bde10ef0.chunk.css",
-  "main.js": "/my-website/static/js/main.77565bfa.chunk.js",
-  "main.js.map": "/my-website/static/js/main.77565bfa.chunk.js.map",
-  "static/js/1.7062e007.chunk.js": "/my-website/static/js/1.7062e007.chunk.js",
-  "static/js/1.7062e007.chunk.js.map": "/my-website/static/js/1.7062e007.chunk.js.map",
+  "main.css": "/my-website/static/css/main.b0ccc5bb.chunk.css",
+  "main.js": "/my-website/static/js/main.51b76577.chunk.js",
+  "main.js.map": "/my-website/static/js/main.51b76577.chunk.js.map",
+  "static/js/1.5638ed36.chunk.js": "/my-website/static/js/1.5638ed36.chunk.js",
+  "static/js/1.5638ed36.chunk.js.map": "/my-website/static/js/1.5638ed36.chunk.js.map",
   "runtime~main.js": "/my-website/static/js/runtime~main.9eb36da8.js",
   "runtime~main.js.map": "/my-website/static/js/runtime~main.9eb36da8.js.map",
-  "static/media/App.css": "/my-website/static/media/balijungle1.68a2a9af.jpg",
-  "static/css/main.bde10ef0.chunk.css.map": "/my-website/static/css/main.bde10ef0.chunk.css.map",
+  "static/css/main.b0ccc5bb.chunk.css.map": "/my-website/static/css/main.b0ccc5bb.chunk.css.map",
+  "static/media/Header.css": "/my-website/static/media/balijungle1.68a2a9af.jpg",
+  "static/media/MyProjects.css": "/my-website/static/media/kodflix3.cab745e3.PNG",
   "index.html": "/my-website/index.html",
-  "precache-manifest.f1e6f66a77ae27349b0d963c52b2c87b.js": "/my-website/precache-manifest.f1e6f66a77ae27349b0d963c52b2c87b.js",
+  "precache-manifest.a59602715ac363fd6c4ec379dc6e373d.js": "/my-website/precache-manifest.a59602715ac363fd6c4ec379dc6e373d.js",
   "service-worker.js": "/my-website/service-worker.js"
 }
