@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import "./App.css";
+import React from "react";
+import "../App.css";
+import "./MyProjects.css";
 
 const MyProjects = () => {
   return (
@@ -10,19 +11,27 @@ const MyProjects = () => {
         <div className="project project1">
           <a href="https://ginflix.herokuapp.com/" target="_black">
             {" "}
-            Ginflix App
+            <h6>Ginflix App</h6>
+            <i className="fab fa-react" />
+            <i className="fab fa-node" />
+            <i className="fab fa-css3-alt" />
+            <i className="fab fa-git" />
           </a>
         </div>
         <div className="project project2">
           <a href="http://spotify-siftr.herokuapp.com/" target="_black">
             {" "}
-            Softify Siftr
+            <h6>Spotify Siftr</h6>
+            <i class="fab fa-spotify" />
+            <i className="fab fa-react" />
+            <i className="fab fa-node" />
+            <i className="fab fa-css3-alt" />
           </a>
         </div>
         <div className="project project3">
-          <a href="" target="_black">
+          <a href="https://github.com/gintarios" target="_black">
             {" "}
-            Comming Soon...{" "}
+            <h6>More on </h6> <i class="fab fa-github" />
           </a>
         </div>
       </div>

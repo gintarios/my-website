@@ -13,135 +13,15 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: rgb(211, 211, 211);
-  word-spacing: 3px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 400%;
-  padding-top: 12%;
-}
+
 
 h2 {
   padding-top: 10px;
   font-weight: 400;
-  font-size: 24px;
-}
-
-h3 {
-  display: inline;
-  padding: 10px;
-  font-weight: 100;
-  color: #fff;
-  font-weight: 400;
-}
-
-h3:hover {
-  color: rgb(133, 177, 133);
-  transition: 0.2s;
-}
-
-.section-header h2 {
-  color: rgb(211, 211, 211);
-  font-size: 24px;
-}
-
-.section-header {
-  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-    url(img/balijungle1.jpg);
-  background-position: bottom;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-}
-
-.navi {
-  height: 8%;
-  width: 100%;
-  position: fixed;
-  background-color: rgba(5, 5, 5, 0.274);
-  padding-top: 1%;
-  padding-left: 30%;
-}
-
-.section-about {
-  padding-top: 20px;
-  height: 100vh;
-}
-
-.section-about p {
-  padding: 30px;
   font-size: 22px;
-  font-weight: 400;
-  padding-top: 40px;
-  padding-left: 15%;
-  padding-bottom: 5%;
-
-  width: 70%;
-  text-align: justify;
 }
 
-.section-myprojects {
-  height: 100vh;
-}
-
-.section-footer {
-  height: 20vh;
-  color: #fff;
-  background-color: #555;
-}
-
-.projects-box {
-  padding: 1%;
-  display: flex;
-  justify-content: center;
-  text-decoration: transparent;
-}
-
-.project {
-  margin: 50px;
-  font-size: 25px;
-  padding: 5%;
-  width: 150px;
-}
-
-.project1 {
-  background-color: rgba(155, 33, 33, 0.836);
-}
-.project2 {
-  background-color: rgba(228, 195, 51, 0.836);
-}
-.project3 {
-  background-color: rgba(41, 104, 16, 0.699);
-}
-
-.footer-container {
-  display: flex;
-  width: 100%;
-  padding-top: 20px;
-}
-
-.footer-box1 {
-  flex: 1;
-  display: block;
-}
-
-.footer-box2 {
-  flex: 1;
-  padding: 15px;
-}
-
-.section-footer p {
-  color: #fff;
-}
-
-.section-footer p:hover {
-  color: rgb(133, 177, 133);
-  transition: 0.2s;
-}
-
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
   h1 {
     font-size: 50px;
     padding-top: 30%;
@@ -169,6 +49,10 @@ h3:hover {
   .project {
     padding: 20%;
   }
+
+  svg {
+    width: 20px;
+  }
 }
 
 @media only screen and (max-width: 930px) {
@@ -177,4 +61,4 @@ h3:hover {
     padding: 3px;
     font-size: 18px;
   }
-}
+} */

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
+import '../App.css';
+import "./About.css";
+
 
 const About = () => {
   return (
@@ -24,6 +26,7 @@ const About = () => {
         <br />I have a wide range of interests including tv technology, lindy
         hop and I am a violinist for the London Medical Symphony orchestra.
       </p>
+      
     </div>
   );
 };
