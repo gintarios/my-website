@@ -55,18 +55,20 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <Link to="/#home">
-          <h3>Home</h3>
-        </Link>
-        <Link to="/#about">
-          <h3>About Me</h3>
-        </Link>
-        <Link to="/#skills">
-          <h3>Skills</h3>
-        </Link>
-        <Link to="/#projects">
-          <h3>My Projects</h3>
-        </Link>
+        <div className="navi-menu">
+          <Link to="/#home">
+            <h3>Home</h3>
+          </Link>
+          <Link to="/#about">
+            <h3>About Me</h3>
+          </Link>
+          <Link to="/#skills">
+            <h3>Skills</h3>
+          </Link>
+          <Link to="/#projects">
+            <h3>My Projects</h3>
+          </Link>
+        </div>
       </div>
 
       <h1>Gintare Zolubaite</h1>

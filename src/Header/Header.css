@@ -44,6 +44,10 @@
   text-align: end;
 }
 
+.navi-menu {
+  padding-right: 30px;
+}
+
 .navi-icons {
   display: flex;
   position: fixed;
