@@ -56,4 +56,9 @@
   .footer-container {
     flex-direction: column;
   }
+
+  .footer-box2 {
+    padding-top: 5%;
+  }
+
 }

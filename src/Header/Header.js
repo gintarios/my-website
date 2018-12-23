@@ -72,7 +72,9 @@ const Header = () => {
       </div>
 
       <h1>Gintare Zolubaite</h1>
+      <div className="header-intro">
       <h2> London based Full-Stack Software Developer </h2>
+      </div>    
     </div>
   );
 };

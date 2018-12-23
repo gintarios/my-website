@@ -31,3 +31,14 @@
     font-size: 60px;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .skills-container {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .skills-item {
+    font-size: 50px;
+  }
+}
